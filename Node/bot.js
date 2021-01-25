@@ -3,11 +3,11 @@ const Telegraf = require("telegraf");
 const bot = new Telegraf("1495727165:AAE0VnissOXQG0ls4kj5Ant45iDSnzDe7hI");
 
 bot.start((ctx) => {
-    ctx.reply("You have entered the start command");
+    ctx.reply("Welcome aboard");
 });
 
 bot.help((ctx) => {
-    ctx.reply("You have entered the help command");
+    ctx.reply("How can i help you !!");
 });
 
 bot.settings((ctx) => {
